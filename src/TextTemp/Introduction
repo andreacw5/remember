@@ -1,5 +1,6 @@
+                                INTRODUZIONE
 
-Introduzione:
+-------------------------------------------------------------------------------
 
 Prima stanza: "Camera da letto"
 
@@ -126,4 +127,32 @@ Quarta stanza: "Soggiorno" (Ritorno)
 - Sono tornato, mi sento meglio a casa mia, una sensazione di sicurezza...
 - Strano...
 - Accendiamo la Televisione devo capire cosa succede
+- Intanto che si accende prendo qualcosa da bere, dopo la camminata è bene rimettersi in forze!
+- Apro il frigorifero e prendo /USER INPUT/.
+- Ecco è accesa, vediamo che dicono!
+- Prendo il telecomando e metto sul /USER INPUT/ (ONLY NUMBERS)
 
+switch
+1 = News <1> si mi sembra il canale giusto per avere informazioni
+2 = ZzZzZzZ ... ma nn prende questo canale...
+3 = RazZza 3 si mi sembra il canale giusto per avere informazioni
+4 = ZzZzZzZ ... ma nn prende questo canale...
+5 = Channel 5 si mi sembra il canale giusto per avere informazioni
+Default: Non trovo quel canale. In futuro chiamerò l'Antennista.
+
+## Ripetizione scelta fino al raggiungere il canale o 1 o 3 o 5 .... ##
+
+- Ecco inizia il telegiornale, giusto in tempo...
+- "Benvenuti su /USER SELECTED CHANNEL/ oggi è Lunedì 25 Maggio 2030, sono le 6:00 del mattino!"
+- "Innanzitutto ricordiamo che tra 2 ore termina il coprifuoco obbligatorio, le autorità sono in massima allerta ma per ora New Haverdine è al sicuro"
+- Serio! Ma ... io nn ricordo queste cose ... cosa ho fatto nelle scorse giornate, non ricordo più nulla...
+- "Nelle ore notturne gli attacchi antiaerei ad alta quota della città hanno colpito parecchi droni che raccoglievano informazioni... "
+- ... mmm.. ora capisco la città deserta ieri sera...
+- "Chi può rimanga in casa, il Governo sta già schierando numerose difese aggiuntive per scongiurare ogni ulteriore attacco Terroristico nella città."
+- "Dicono, che a partire da domani la città sarà sicura. "
+- "Detto questo passiamo alle altre notizie, ...."
+- Sarà meglio guardarmi intorno, devo capire cosa mi è successo...
+
+-------------------------------------------------------------------------------
+
+Passaggio al capitolo successivo ---> CAPITOLO 1°
