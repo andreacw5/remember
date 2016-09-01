@@ -1,3 +1,5 @@
+import util.MessageUtils;
+
 public class Player
 {
 	//Nome del giocatore
