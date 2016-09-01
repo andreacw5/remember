@@ -1,0 +1,129 @@
+
+Introduzione:
+
+Prima stanza: "Camera da letto"
+
+- Un esplosione rompe il silenzio della stanza, mi sveglio di colpo!
+- Cos'è successo? Non mi ricordo più chi sono! Come mi chiamo?
+- Ora ricordo sono /NAME/ Come ho fatto a dimenticarlo non lo so proprio!
+- Ma quel botto cos'era? Adesso andrò a controllare cosa è successo,
+
+@Scelte del giocatore:
+
+- Vestirsi --> Armadio e selezione vestito (User Input)
+
+Text: Mi alzo dal letto, l'armadio è già aperto...
+Text: È tutto ben riposto nell'armadio, cosa indosso ...
+Text: Metterò /OUTFITS/. Ho deciso!
+
+- Osserva la stanza --> (Descrizione della stanza in cui ti trovi)
+
+Text: Non vedo bene è molto buio, ma ricordo bene la mia camera da letto,
+Text: Le pareti /COLOR/, il mio colore preferito, questi mobili moderni...
+Text: Già da qui vedo la luce del bagno accesa, mi sarò addormentato ancora prima di finire di prepararmi.
+
+- Guarda dalla finestra --> (È troppo buio!)
+
+Text: Non vedo nulla è troppo buio fuori!
+
+- Calendario --> (Scelta dell'età del giocatore MIN 18 MAX 40)
+
+Text: Segno il giorno sul calendario, manca poco al mio compleanno, festeggerò /USER AGE/ anni!
+
+- Specchio --> (ESTETICA del giocatore)
+
+Text: Entro a spegnere la luce del bagno e vedo lo specchio, mi guardo ho i capelli /USER INPUT/, un viso /USER INPUT/, un corpo /USER INPUT/.
+Text: Si sono proprio io!
+
+## Loop fino al completamento di tutte le interazioni ##
+
+- Ora sono pronto per andare fuori a vedere cosa sta succedendo!
+
+Passaggio stanza successivo --> Soggiorno
+
+-------------------------------------------------------------------------------
+
+Seconda stanza: "Soggiorno"
+
+@Scelte del giocatore:
+
+- Guarda dalla finestra --> (È troppo buio!)
+
+Text: Non vedo nulla è troppo buio fuori!
+
+- Prendi una torcia --> (Aggiunta torcia nell'inventario)
+
+Text: Vedo la torcia accanto al mobile del Televisore, la raccolgo mi può tornare utile
+
+- Esci dalla porta --> (Passaggio al Livello successivo)
+
+Text: Ho fatto tutto posso andare a vedere cosa è successo, apro la porta, sento un odore strano ...
+Text: Prendo le chiavi appese all'interno della porta ed esco, chiudo a chiave ho strani pensieri per la mente!
+Text: Chissà cosa è successo.
+
+## Loop fino al completamento di tutte le interazioni ##
+
+Passaggio stanza successivo --> Strada fuori casa
+
+-------------------------------------------------------------------------------
+
+Terza stanza: "Strada fuori casa"
+
+- Mi trovo fuori casa, vedo del fumo, ma non sento nessuno, sembra deserta tutta la città...
+- Devo scoprire di più, mi avvio all'origine del fumo sebbene è notte si riesce a vedere molto bene!
+
+@Scelte del giocatore:
+
+- Accendi la torcia --> (Ora vedo meglio!)
+
+Text: Almeno vedo dove metto i piedi, non ricordo quando ho caricato la batteria della torcia...
+Text: Spero resista almeno un'ora...
+
+- Corri sul posto --> (Corro!)
+
+Text: Ah! Che male, ho urtato qualcosa...
+Text: Nulla di doloroso, la prossima volta meglio usare la torcia!
+Text: Almeno risparmio le batterie, non ricordo quando le ho caricate...
+
+
+- Ecco sono quasi arrivato sul posto...
+- Molto silenzioso quasi preoccupante...
+- Ora lo vedo è ...
+- ....
+- Ma è un aereo...
+- Mi avvicino per capire di più cosa sia...
+- È molto piccolo non capisco bene cosa sia...
+
+@Scelte del giocatore:
+
+- Ispeziona la cabina --> (ISPECTION)
+
+Text: Che strano, la cabina di pilotaggio non c' è ...
+
+- Ispeziona la turbina --> (ISPECTION)
+
+Text: C'è una piccola elica sul retro dell'aereo, molto leggero!
+
+- Ispeziona la fusoliera --> (ISPECTION)
+
+Text: È tutto bianco, nonostante sia notte si vede moltissimo!
+Text: Non capisco, c'è una ...
+Text: Una telecamera attaccata sul muso dell'aereo!
+
+## Loop fino al completamento di tutte le interazioni ##
+
+- Mmm... Ora che lo guardo meglio mi sembra un ...
+- un drone! ecco cos'è!
+- Ma cosa è successo, come mai non accorre nessuno sul posto, sembra tutto deserto!
+- Sarà meglio che torno a casa, magari la Televisione dice qualcosa della situazione...
+
+Passaggio stanza successivo --> Soggiorno
+
+-------------------------------------------------------------------------------
+
+Quarta stanza: "Soggiorno" (Ritorno)
+
+- Sono tornato, mi sento meglio a casa mia, una sensazione di sicurezza...
+- Strano...
+- Accendiamo la Televisione devo capire cosa succede
+
