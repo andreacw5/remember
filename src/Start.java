@@ -1,3 +1,11 @@
+import room.introduction.Introduction;
+
+/******************************
+
+      Remember Your Life
+
+*******************************/
+
 public class Start {
 
 
@@ -5,14 +13,18 @@ public class Start {
         MessageUtils.init( country, language );
     }
 
-    // Log di sistema
-    private static void log(String aMessage){
+    public static void log(String aMessage){
         System.out.println(aMessage);
+    }
+
+    public static void message(String aMessage){
+        MessageUtils.getLocalizedString(aMessage);
     }
 
     private void initialize() throws InterruptedException {
 
-        //log("PlayerIsALIVE");
+        Introduction.introductions();
+
         Room.enter();
 
         while(Player.life)
@@ -40,5 +52,3 @@ public class Start {
     }
 
 }
-
-

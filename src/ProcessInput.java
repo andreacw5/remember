@@ -1,4 +1,3 @@
-
 public class ProcessInput
 {
 	
@@ -29,7 +28,7 @@ public class ProcessInput
 					break;
 					
 				case "move north": case"move forward":case "go north":case "go forward":
-					Room.enter();			
+					Room.enter();
 					break;
 					
 				case "item":
