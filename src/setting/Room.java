@@ -1,3 +1,6 @@
+package setting;
+
+import setting.Player;
 import util.MessageUtils;
 
 public class Room
@@ -7,7 +10,7 @@ public class Room
 	
 	public static void enter()
 	{
-		//We immediately move forward a room upon entry
+		//Vieni immesso nella prima stanza all'avvio
 		roomNumber++;
 		
 		if(roomNumber == 1)

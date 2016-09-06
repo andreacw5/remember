@@ -1,7 +1,10 @@
+package item;
+
+import setting.Player;
 
 public class Food extends Item
 {
-	enum foodType
+	public enum foodType
 	{
 		Ham,
 		Cheese,
@@ -19,7 +22,7 @@ public class Food extends Item
 	
 	public void hit()
 	{		
-		//food is a bad weapon
+		//il cibo nn è un arma
 		System.out.println("You hit with your " + name + ".");
 		System.out.println("It wasn't very effective...");
 		Player.equipped = null;
@@ -29,7 +32,7 @@ public class Food extends Item
 	{
 		if(Player.equipped != null)
 		{
-			//Food is good to eat
+			//item.Food is good to eat
 			System.out.println("You eat your " + name + ".");
 			System.out.println("Om nom nom, om nom.");
 			

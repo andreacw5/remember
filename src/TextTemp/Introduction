@@ -29,7 +29,8 @@ Text: Non vedo nulla è troppo buio fuori!
 
 - Calendario --> (Scelta dell'età del giocatore MIN 18 MAX 40)
 
-Text: Segno il giorno sul calendario, manca poco al mio compleanno, festeggerò /USER AGE/ anni!
+Text: Quanti anni ho...
+Text: /USER INPUT/ Ora ricordo ne ho ....!
 
 - Specchio --> (ESTETICA del giocatore)
 

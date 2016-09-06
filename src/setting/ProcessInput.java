@@ -1,3 +1,6 @@
+package setting;
+
+import item.Food;
 import util.MessageUtils;
 
 public class ProcessInput
@@ -42,7 +45,7 @@ public class ProcessInput
 					break;
 					
 				case "add":
-					Inventory.add(new Food(Food.foodType.Burger));			
+					Inventory.add(new Food(Food.foodType.Burger));
 					break;
 					
 				case "eat":
@@ -50,7 +53,7 @@ public class ProcessInput
 					break;
 					
 				case "equip":
-					Player.equip();			
+					Player.equip();
 					break;
 					
 				case "rename":

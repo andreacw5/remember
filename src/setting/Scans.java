@@ -1,8 +1,10 @@
+package setting;
+
 import java.util.Scanner;
 
 public class Scans{
 
-	static Scanner inputer = new Scanner(System.in);
+	public static Scanner inputer = new Scanner(System.in);
 	
 	public static String readLine(){
 

@@ -1,4 +1,8 @@
 import room.introduction.Introduction;
+import setting.Player;
+import setting.ProcessInput;
+import setting.Room;
+import setting.Scans;
 import util.MessageUtils;
 
 /******************************
@@ -24,16 +28,18 @@ public class Start {
 
     private void initialize() throws InterruptedException {
 
-        Introduction.introductions();
+        Introduction.introStage1();
 
         Room.enter();
 
-        while(Player.life)
-        {
-            ProcessInput.input();
-        }
 
-        Scans.inputer.close();
+        while(Player.life)
+         {
+         ProcessInput.input();
+         }
+
+         Scans.inputer.close();
+
 
     }
 

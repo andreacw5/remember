@@ -1,9 +1,15 @@
+package setting;
+
+import item.Item;
 import util.MessageUtils;
 
 public class Player
 {
 	//Nome del giocatore
-	static String name;
+	public static String name;
+    public static String outfits;
+    public static String bedroomcolor;
+    public static String ageplayer;
 	
 	//e la sua classe...
 	static String plclass;
@@ -12,20 +18,26 @@ public class Player
 
 	static int insanity = 0;
 
-	static boolean life = true;
+	public static boolean life = true;
 	
 	//L'inventario del giocatore
 	static Inventory inv = new Inventory();
 	
-	//Item equipaggiato
-	static Item equipped;
+	//item.Item equipaggiato
+	public static Item equipped;
 
 	public static void nameSet()
 	{
-		name = Scans.readLine();
+		name = Scans.readLine().toLowerCase();
 	}
 
-	public static void classSet()
+	public static void outfitsSet(){outfits = Scans.readLine().toLowerCase();}
+
+    public static void bedroomcolorSet(){bedroomcolor = Scans.readLine().toLowerCase();}
+
+    public static void ageplayerSet(){ageplayer = Scans.readLine();}
+
+    public static void classSet()
 	{
 		plclass = Scans.readLine().toLowerCase();
 	}
