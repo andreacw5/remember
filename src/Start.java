@@ -1,7 +1,6 @@
-import room.introduction.Introduction;
+import room.intro.Introduction;
 import setting.Player;
 import setting.ProcessInput;
-import setting.Room;
 import setting.Scans;
 import util.MessageUtils;
 
@@ -18,20 +17,9 @@ public class Start {
         MessageUtils.init( country, language );
     }
 
-    public static void log(String aMessage){
-        System.out.println(aMessage);
-    }
-
-    public static void message(String aMessage){
-        MessageUtils.getLocalizedString(aMessage);
-    }
-
     private void initialize() throws InterruptedException {
 
         Introduction.introStage1();
-
-        Room.enter();
-
 
         while(Player.life)
          {
@@ -39,7 +27,6 @@ public class Start {
          }
 
          Scans.inputer.close();
-
 
     }
 

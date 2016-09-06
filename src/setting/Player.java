@@ -10,13 +10,9 @@ public class Player
     public static String outfits;
     public static String bedroomcolor;
     public static String ageplayer;
-	
-	//e la sua classe...
-	static String plclass;
-
-    static String selectionToken;
-
-	static int insanity = 0;
+    public static String eye;
+    public static String flashlight;
+    public static String flashlightON;
 
 	public static boolean life = true;
 	
@@ -26,24 +22,41 @@ public class Player
 	//item.Item equipaggiato
 	public static Item equipped;
 
+    // Settaggio del nome del giocatore
 	public static void nameSet()
 	{
 		name = Scans.readLine().toLowerCase();
 	}
 
-	public static void outfitsSet(){outfits = Scans.readLine().toLowerCase();}
-
-    public static void bedroomcolorSet(){bedroomcolor = Scans.readLine().toLowerCase();}
-
-    public static void ageplayerSet(){ageplayer = Scans.readLine();}
-
-    public static void classSet()
-	{
-		plclass = Scans.readLine().toLowerCase();
+	// Settaggio Abito del giocatore
+	public static void outfitsSet(){
+	    outfits = Scans.readLine().toLowerCase();
 	}
 
-	public static void selectionToken(){
-	    selectionToken = Scans.readLine().toLowerCase();
+	// Settaggio colore preferito
+    public static void bedroomcolorSet(){
+        bedroomcolor = Scans.readLine().toLowerCase();
+    }
+
+    // Settaggio colore occhi
+    public static void eyemirrorrSet(){
+        eye = Scans.readLine().toLowerCase();
+    }
+
+    // Settaggio età del giocatore
+    public static void ageplayerSet(){
+        ageplayer = Scans.readLine();
+    }
+
+    // Il giocatore prende la torcia o no
+    public static void flashlightSet()
+    {
+        flashlight = Scans.readLine().toLowerCase();
+    }
+
+    // Settaggio Abito del giocatore
+    public static void flashlightONSet(){
+        flashlightON = Scans.readLine().toLowerCase();
     }
 	
 	public static void equip()
