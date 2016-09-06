@@ -1,4 +1,9 @@
-# Text Adventure
-A Test of Java skill
+# Remember
 
-The game is a small text adventure that is about moving through rooms. Madness.
+Ti sei dimenticato chi sei, non sai cosa ti è successo...
+
+ ...le informazioni sono quello che cerchi!
+
+    ......Riuscirai a ricordare chi sei?
+
+Remember!
