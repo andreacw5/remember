@@ -1,8 +1,11 @@
+package item;
+
+import setting.Scans;
 
 public abstract class Item
 {
 	
-	String name;
+	public String name;
 	int damage;
 	int curePower;
 	

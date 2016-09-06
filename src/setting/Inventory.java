@@ -1,3 +1,7 @@
+package setting;
+
+import item.Item;
+
 import java.util.LinkedList;
 
 public class Inventory
