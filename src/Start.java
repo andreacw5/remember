@@ -1,4 +1,7 @@
-import room.introduction.Introduction;
+import room.intro.Introduction;
+import setting.Player;
+import setting.ProcessInput;
+import setting.Scans;
 import util.MessageUtils;
 
 /******************************
@@ -14,26 +17,16 @@ public class Start {
         MessageUtils.init( country, language );
     }
 
-    public static void log(String aMessage){
-        System.out.println(aMessage);
-    }
-
-    public static void message(String aMessage){
-        MessageUtils.getLocalizedString(aMessage);
-    }
-
     private void initialize() throws InterruptedException {
 
-        Introduction.introductions();
-
-        Room.enter();
+        Introduction.introStage1();
 
         while(Player.life)
-        {
-            ProcessInput.input();
-        }
+         {
+         ProcessInput.input();
+         }
 
-        Scans.inputer.close();
+         Scans.inputer.close();
 
     }
 

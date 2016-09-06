@@ -7,34 +7,41 @@ Prima stanza: "Camera da letto"
 - Un esplosione rompe il silenzio della stanza, mi sveglio di colpo!
 - Cos'è successo? Non mi ricordo più chi sono! Come mi chiamo?
 - Ora ricordo sono /NAME/ Come ho fatto a dimenticarlo non lo so proprio!
-- Ma quel botto cos'era? Adesso andrò a controllare cosa è successo,
+- Ma quel botto cos'era? Adesso andrò a controllare cosa è successo, ma prima...
 
 @Scelte del giocatore:
 
-- Vestirsi --> Armadio e selezione vestito (User Input)
+- Vestirsi -->  1. Mi devo vestire... (User Input)
 
 Text: Mi alzo dal letto, l'armadio è già aperto...
 Text: È tutto ben riposto nell'armadio, cosa indosso ...
 Text: Metterò /OUTFITS/. Ho deciso!
 
-- Osserva la stanza --> (Descrizione della stanza in cui ti trovi)
+- Osserva la stanza -->  2. Non ricordo molto, dove sono...
 
 Text: Non vedo bene è molto buio, ma ricordo bene la mia camera da letto,
 Text: Le pareti /COLOR/, il mio colore preferito, questi mobili moderni...
 Text: Già da qui vedo la luce del bagno accesa, mi sarò addormentato ancora prima di finire di prepararmi.
+Text: Mi sembra di ricordare meglio, ma non capisco cosa ho fatto per dimenticarmi cose così importanti!
+Text: Non ricordo cosa ho fatto ieri, chissa cosa avrò mangiato...
+Text: Basta pensare ora devo continuare!
 
-- Guarda dalla finestra --> (È troppo buio!)
+- Guarda dalla finestra --> 3. Cosa è successo fuori, fammi guardare...
 
 Text: Non vedo nulla è troppo buio fuori!
 
-- Calendario --> (Scelta dell'età del giocatore MIN 18 MAX 40)
+- Calendario --> 4. Che giorno è oggi? ...
 
-Text: Segno il giorno sul calendario, manca poco al mio compleanno, festeggerò /USER AGE/ anni!
+Text: Ecco il calendario, oggi è il 25 Maggio 2030 sono sicuro, tutti i giorni precedenti sono cancellati.
+Text: Ora che ci penso, ma quanti anni ho...
+Text: Ecco il calendario, come ricordavo, è tutto segnato.
+Text: Ho /USER INPUT/!, è così strano non ricordare.
 
-- Specchio --> (ESTETICA del giocatore)
+- Specchio --> 5. Non ricordo il mio aspetto! C'è uno specchio...
 
-Text: Entro a spegnere la luce del bagno e vedo lo specchio, mi guardo ho i capelli /USER INPUT/, un viso /USER INPUT/, un corpo /USER INPUT/.
-Text: Si sono proprio io!
+Text: Già da qui vedo la luce del bagno accesa, mi sarò addormentato ancora prima di finire di prepararmi.
+Text: Ho gli occhi /USER INPUT/, sono uguali a quelli di mia madre!
+Text: Aspetta ma questo lo ricordo! Mi sembra che più passa il tempo più i ricordi tornano! Meglio così
 
 ## Loop fino al completamento di tutte le interazioni ##
 
@@ -46,19 +53,23 @@ Passaggio stanza successivo --> Soggiorno
 
 Seconda stanza: "Soggiorno"
 
+- Scendo dalle scale e vedo il mio soggiorno,
+- Sono pronto, vestito e carico per capire cosa mi è successo!
+- Adesso vediamo se trovo qualcosa di utile qui prima di uscire...
+
 @Scelte del giocatore:
 
-- Guarda dalla finestra --> (È troppo buio!)
+- Guarda dalla finestra --> 1. Ho delle belle finestre in sala, fammi guardare fuori...
 
 Text: Non vedo nulla è troppo buio fuori!
 
-- Prendi una torcia --> (Aggiunta torcia nell'inventario)
+- Prendi una torcia --> 2. È meglio se cerco una torcia...
 
-Text: Vedo la torcia accanto al mobile del Televisore, la raccolgo mi può tornare utile
+Text: Vedo la torcia accanto al mobile del Televisore, la raccolgo mi può tornare utile in futuro.
 
-- Esci dalla porta --> (Passaggio al Livello successivo)
+- Esci dalla porta --> 3. Posso uscire...
 
-Text: Ho fatto tutto posso andare a vedere cosa è successo, apro la porta, sento un odore strano ...
+Text: Ho fatto tutto posso andare a vedere cosa è successo, apro la porta, sento odore di bruciato ...
 Text: Prendo le chiavi appese all'interno della porta ed esco, chiudo a chiave ho strani pensieri per la mente!
 Text: Chissà cosa è successo.
 
@@ -75,17 +86,17 @@ Terza stanza: "Strada fuori casa"
 
 @Scelte del giocatore:
 
-- Accendi la torcia --> (Ora vedo meglio!)
+- Accendi la torcia --> 1. Accendo la torcia...
 
 Text: Almeno vedo dove metto i piedi, non ricordo quando ho caricato la batteria della torcia...
 Text: Spero resista almeno un'ora...
 
-- Corri sul posto --> (Corro!)
+- Corri sul posto --> 2. Risparmio le batterie...
 
+Text: Continuo a camminare...
 Text: Ah! Che male, ho urtato qualcosa...
 Text: Nulla di doloroso, la prossima volta meglio usare la torcia!
-Text: Almeno risparmio le batterie, non ricordo quando le ho caricate...
-
+Text: Almeno ho risparmiato le batterie, non ricordo quando le ho caricate...
 
 - Ecco sono quasi arrivato sul posto...
 - Molto silenzioso quasi preoccupante...

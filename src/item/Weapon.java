@@ -1,3 +1,6 @@
+package item;
+
+import setting.Player;
 
 public class Weapon extends Item
 {
