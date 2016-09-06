@@ -39,8 +39,7 @@ public class Introduction {
 
     public static void introStage4(){
 
-        LivingRoomFinal epic4 = new LivingRoomFinal();
-        epic4.inizialize();
+        LivingRoom.inizialize1();
 
     }
 
